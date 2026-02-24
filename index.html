@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Cumple 💚</title>
+
+  <!-- Tipografía cute -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 🎵 Música Hermanito (se activa con el botón) -->
+  <iframe
+    id="musica"
+    class="musica"
+    src="https://www.youtube.com/embed/HgokJaWcw7A?loop=1&playlist=HgokJaWcw7A"
+    allow="autoplay">
+  </iframe>
+
+  <!-- Corazones -->
+  <div class="corazones"></div>
+
+  <div class="card">
+    <div class="vikingo">🛡️🐸</div>
+
+    <h1>💚 Felíz cumple Enano verde 💚</h1>
+
+    <p class="mensaje">
+      Que sigas lleno de proyectos y éxitos.<br>
+      Quiero verte felíz siempre!!
+    </p>
+
+    <button onclick="abrirSorpresa()">🖤 Abrir sorpresa</button>
+
+    <div id="sorpresa" class="oculto">
+      <p class="texto-sorpresa">✨ Te amo Renacuajo ✨</p>
+
+      <div class="galeria">
+        <img src="fotos/foto1.jpg" alt="Foto 1">
+        <img src="fotos/foto2.jpg" alt="Foto 2">
+        <img src="fotos/foto3.jpg" alt="Foto 3">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
